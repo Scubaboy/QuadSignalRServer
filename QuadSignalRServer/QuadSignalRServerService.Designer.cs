@@ -1,6 +1,6 @@
 ﻿namespace QuadSignalRServer
 {
-    partial class Service1
+    partial class QuadSignalRServerService
     {
         /// <summary> 
         /// Required designer variable.

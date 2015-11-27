@@ -17,7 +17,7 @@ namespace QuadSignalRServer
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[] 
             { 
-                new Service1() 
+                new QuadSignalRServerService() 
             };
             ServiceBase.Run(ServicesToRun);
         }
