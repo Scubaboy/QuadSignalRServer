@@ -20,5 +20,10 @@ namespace QuadSignalRServer
         {
 
         }
+
+        private void QuadSignalRServerServiceInstaller_AfterInstall(object sender, InstallEventArgs e)
+        {
+
+        }
     }
 }

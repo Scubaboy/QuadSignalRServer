@@ -36,7 +36,14 @@ namespace QuadSignalRServer
 
             eventLog1.WriteEntry("In OnStart");
             string url = "http://localhost:8080";
-            signalR = WebApp.Start(url); 
+            try
+            {
+                signalR = WebApp.Start(url);
+            }
+            catch(Exception exp)
+            {
+                eventLog1.WriteEntry(exp.Message);
+            }
         }
 
         protected override void OnStop()

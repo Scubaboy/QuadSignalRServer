@@ -2,10 +2,14 @@
 {
     using Microsoft.AspNet.SignalR;
     using Microsoft.AspNet.SignalR.Hubs;
+    using System.Threading.Tasks;
 
     [HubName("ActiveQuadsHub")]
-    class ActiveQuadsHub : Hub
+    public class ActiveQuadsHub : Hub
     {
-
+        public override Task OnConnected()
+        {
+            return base.OnConnected();
+        }
     }
 }

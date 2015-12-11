@@ -40,6 +40,7 @@
             // QuadSignalRServerServiceInstaller
             // 
             this.QuadSignalRServerServiceInstaller.ServiceName = "QuadSignalRServerService";
+            this.QuadSignalRServerServiceInstaller.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.QuadSignalRServerServiceInstaller_AfterInstall);
             // 
             // ProjectInstaller
             // 
