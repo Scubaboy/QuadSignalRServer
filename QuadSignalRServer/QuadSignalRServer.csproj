@@ -63,6 +63,12 @@
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
+    <Reference Include="QuadModels">
+      <HintPath>..\packages\QuadModels.1.0.0-CI00029\lib\net40\QuadModels.dll</HintPath>
+    </Reference>
+    <Reference Include="QuadSignalRMsgs">
+      <HintPath>..\packages\QuadSignalRMsgs.1.0.0-CI00004\lib\net40\QuadSignalRMsgs.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
